@@ -24,7 +24,7 @@ The system uses a dataset that includes various features of cars, such as:
 
 The dataset was sourced from **CarDekho** and is cleaned and pre-processed to remove any inconsistencies. The dataset contains detailed car information that is essential for making accurate recommendations.
 
-You can access the dataset here: [Car Details from CarDekho Dataset](https://github.com/SudharsanamRK/car-recommendation-system/blob/main/car-details-from-car-dekho.csv).
+You can access the dataset here: [Car Details from CarDekho Dataset]([https://github.com/SudharsanamRK/car-recommendation-system/blob/main/car-details-from-car-dekho.csv](https://www.kaggle.com/datasets/nehalbirla/vehicle-dataset-from-cardekho?resource=download)).
 
 ---
 
