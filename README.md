@@ -63,6 +63,30 @@ Ensure you have the following Python libraries installed:
    ```bash
    git clone https://github.com/SudharsanamRK/car-recommendation-system.git
 
+2. **Navigate to the project directory:**:
+   ```bash
+   cd car-recommendation-system
+3. **Install required dependencies:** You can install all necessary libraries by running:
+   ```bash   
+   pip install -r requirements.txt
+4. **Run the Program:** Ensure the dataset car-details-from-car-dekho.csv is in your project directory, and run the Python script to start the car recommendation process:
+
+   ```bash
+   python car_recommendation.py
+
+---
+
+## Code Walkthrough:
+1. Data Preprocessing: The dataset is cleaned, and categorical variables like fuel type and transmission are encoded for the machine learning algorithm.
+
+2. KMeans Clustering: The KMeans algorithm is applied to the data to create clusters that group similar cars together.
+
+3. Recommendation Engine: Based on user input (budget, fuel type, transmission), the system filters and suggests cars from the relevant clusters.
+
+4. Visualizations: We use matplotlib and seaborn to create visual representations of the data, helping users understand car price distribution, fuel types, and categories.
+
+---
+
 ## Known Issues / Future Improvements
 
 - The current recommendation system does not factor in user reviews or ratings.
