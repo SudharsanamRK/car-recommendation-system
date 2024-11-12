@@ -62,3 +62,11 @@ Ensure you have the following Python libraries installed:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/SudharsanamRK/car-recommendation-system.git
+
+## Known Issues / Future Improvements
+
+- The current recommendation system does not factor in user reviews or ratings.
+- The clustering might not always provide optimal results for all car types and segments.
+- Future versions could integrate more detailed features (e.g., user reviews, advanced filtering options).
+- Add more diverse datasets for improved accuracy and broader recommendations.
+
